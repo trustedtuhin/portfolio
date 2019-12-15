@@ -207,3 +207,28 @@ SECTION-ABOUT
 	line-height: 140%;
 	text-align: justify;
 }
+
+
+/*........................................................
+SECTION-SKILLS
+........................................................*/
+
+.skills ul {
+
+	list-style: none;
+}
+
+.skills ul li {
+
+	display: inline-block;
+	float: left;
+	width: 25%;
+}
+
+.skills ul li img {
+
+	width: 30%;
+	height: auto;
+	padding-bottom:  30px;
+	margin-left: 35%;
+}
