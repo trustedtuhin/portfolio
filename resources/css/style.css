@@ -348,6 +348,19 @@ CLAENTS FEEDBACK
 blockquote {
 	text-align: justify;
 	font-style: italic;
+	line-height: 145%;
+	position: relative;
+	margin-top: 20px;
+}
+
+blockquote:before {
+	content: "\201c";
+	position: absolute;
+	font-size: 500%;
+	left: -8px;
+	top: 0;
+
+
 }
 
 cite {
