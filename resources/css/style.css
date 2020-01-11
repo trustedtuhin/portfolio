@@ -100,7 +100,8 @@ span {
 BUTTON
 ........................................................*/
 
-.btn {
+.btn,
+input[type=submit]{
 	text-decoration: none;
 	display: inline-block;
 	padding: 10px 20px;
@@ -117,7 +118,9 @@ BUTTON
 }
 
 .btn-facebook:hover,
-.btn-facebook:active {
+.btn-facebook:active,
+input[type=submit]{
+ {
 	background-color: #fff;
 	color: #3b5998;
 	border: 1px solid #3b5998;
@@ -438,3 +441,26 @@ HIRE ME
 .card div:last-child {
 	border-bottom: none;
 }
+
+
+
+/*........................................................
+CONTACT WITH ME
+........................................................*/
+
+
+input[type=text],
+input[type=email],
+select,
+textarea {
+	width: 100%;
+	padding: 7px;
+	border-radius: 3px;
+	border: 1px solid #ccc;
+}
+
+input[type=checkbox] { margin: 10px 5px 10px 0 }
+
+textarea { height: 100px; }
+
+*:focus { outline: none; }
