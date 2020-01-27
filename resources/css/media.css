@@ -39,7 +39,22 @@
 /*-----------------------------------------------------------*/
 @media (max-width: 1023px){
 
-}
+/*global*/
+body { font-size: 18px;}
+section { padding: 40px 0; }
+
+/*about*/
+
+.about-text {
+	width: 100%;
+	margin-left: 0;
+	}
+	/*work*/
+	.work-div {	margin-top: 30px; }
+	.work-step { margin-bottom: 30px; }
+
+	/*hire me*/
+	.card div p { font-size: 200%; }
 
 
 /*-----------------------------------------------------------*/
