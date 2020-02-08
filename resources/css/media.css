@@ -77,13 +77,19 @@ section { padding: 40px 0; }
 	.main-nav li { margin-right: 10px; }
 
 	/*grid*/
-	.col { width: 100%; }
+	.col {
+		width: 100%;
+		margin: 0 0 3% 0;
+	}
 
 	/*cliant-feedback*/
 	.clainets-feedback { background-position: center; }
 
 	/*works*/
-	.work div img { padding: 0; }
+	.work-div img { padding: 0; }
+
+	/*contact*/
+	.white-space { display: none; }
 
 	/*footer*/
 	footer { font-size: 100%; }
