@@ -92,7 +92,7 @@ section { padding: 40px 0; }
 	.white-space { display: none; }
 
 	/*footer*/
-	footer { font-size: 100%; }
+	footer { font-size: 90%; }
 	footer .col { width: 50%; } 
 
 }
@@ -101,5 +101,34 @@ section { padding: 40px 0; }
 /*------------------------ MOBILE ---------------------------*/
 /*-----------------------------------------------------------*/
 @media (max-width: 480px){
+
+	/*global*/
+	body { font-size: 14px;	}
+
+	/*nav*/
+	.main-nav { visibility: hidden; }
+
+	/*about*/
+	.about-text { margin-bottom: 10px; }
+
+	/*skill*/
+	.skills ul li img {	transform: scale(1.07);	}
+
+	/*works*/
+	.work-step div {   
+    	height: 35px;
+    	width: 35px;
+    	font-size: 170%;   
+	}
+
+
+	/*feedback*/
+	cite { margin-top: 10px; }	
+
+	/*hire me*/
+	.card div p span { font-size: 45%; }
+
+	/*footer*/
+	footer ul li {	margin-right: 7px; }
 
 }
